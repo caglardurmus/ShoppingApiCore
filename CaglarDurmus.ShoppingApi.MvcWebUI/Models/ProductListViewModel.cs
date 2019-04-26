@@ -1,10 +1,10 @@
-﻿using CaglarDurmus.Northwind.Entities.Concrete;
+﻿using CaglarDurmus.ShoppingApi.Entities.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace CaglarDurmus.Northwind.MvcWebUI.Models
+namespace CaglarDurmus.ShoppingApi.MvcWebUI.Models
 {
     public class ProductListViewModel
     {

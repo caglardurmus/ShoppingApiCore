@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace CaglarDurmus.Northwind.MvcWebUI.ExtensionMethods
+namespace CaglarDurmus.ShoppingApi.MvcWebUI.ExtensionMethods
 {
     public static class SessionExtensionMethods
     {

@@ -1,11 +1,11 @@
-﻿using CaglarDurmus.Northwind.Business.Abstract;
-using CaglarDurmus.Northwind.Entities.Concrete;
+﻿using CaglarDurmus.ShoppingApi.Business.Abstract;
+using CaglarDurmus.ShoppingApi.Entities.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace CaglarDurmus.Northwind.Business.Concrete
+namespace CaglarDurmus.ShoppingApi.Business.Concrete
 {
     /// <summary>
     /// Sepete ekleme,silme ve listeme işlemlerini yapan servis.

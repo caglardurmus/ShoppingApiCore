@@ -1,13 +1,13 @@
 ﻿using CaglarDurmus.Core.EntityFramework;
-using CaglarDurmus.Northwind.DataAccess.Abstract;
-using CaglarDurmus.Northwind.Entities.Concrete;
+using CaglarDurmus.ShoppingApi.DataAccess.Abstract;
+using CaglarDurmus.ShoppingApi.Entities.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace CaglarDurmus.Northwind.DataAccess.Concrete.EntityFramework
+namespace CaglarDurmus.ShoppingApi.DataAccess.Concrete.EntityFramework
 {
-    public class EfProductDal : EfEntityRepositoryBase<Product, NorthwindContext>, IProductDal
+    public class EfProductDal : EfEntityRepositoryBase<Product, ShoppingApiContext>, IProductDal
     {
     }
 }

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
 
-namespace CaglarDurmus.Northwind.Entities.Concrete
+namespace CaglarDurmus.ShoppingApi.Entities.Concrete
 {
     public class ShippingDetails
     {

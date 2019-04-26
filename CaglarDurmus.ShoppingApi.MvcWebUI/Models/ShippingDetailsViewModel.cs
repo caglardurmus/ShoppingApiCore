@@ -1,6 +1,6 @@
-﻿using CaglarDurmus.Northwind.Entities.Concrete;
+﻿using CaglarDurmus.ShoppingApi.Entities.Concrete;
 
-namespace CaglarDurmus.Northwind.MvcWebUI.Models
+namespace CaglarDurmus.ShoppingApi.MvcWebUI.Models
 {
     public class ShippingDetailsViewModel
     {

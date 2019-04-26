@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CaglarDurmus.Northwind.MvcWebUI.TagHelpers
+namespace CaglarDurmus.ShoppingApi.MvcWebUI.TagHelpers
 {
     [HtmlTargetElement("product-list-pager")]
     public class PagingTagHelper : TagHelper

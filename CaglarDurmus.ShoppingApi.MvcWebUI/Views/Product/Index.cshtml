@@ -1,4 +1,4 @@
-﻿@model CaglarDurmus.Northwind.MvcWebUI.Models.ProductListViewModel
+﻿@model CaglarDurmus.ShoppingApi.MvcWebUI.Models.ProductListViewModel
 
 @{
     Layout = "~/Views/_Layout.cshtml";
@@ -11,6 +11,7 @@
             <td>Product Name</td>
             <td>Unit Price</td>
             <td>Units In Stock</td>
+            <td></td>
         </tr>
         @{ foreach (var product in Model.Products)
             {

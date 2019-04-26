@@ -1,14 +1,14 @@
-﻿using CaglarDurmus.Northwind.Business.Abstract;
-using CaglarDurmus.Northwind.Entities.Concrete;
-using CaglarDurmus.Northwind.MvcWebUI.Models;
-using CaglarDurmus.Northwind.MvcWebUI.Services;
+﻿using CaglarDurmus.ShoppingApi.Business.Abstract;
+using CaglarDurmus.ShoppingApi.Entities.Concrete;
+using CaglarDurmus.ShoppingApi.MvcWebUI.Models;
+using CaglarDurmus.ShoppingApi.MvcWebUI.Services;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace CaglarDurmus.Northwind.MvcWebUI.Controllers
+namespace CaglarDurmus.ShoppingApi.MvcWebUI.Controllers
 {
     public class CartController : Controller
     {

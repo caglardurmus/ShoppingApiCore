@@ -6,7 +6,7 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace CaglarDurmus.Northwind.MvcWebUI.Middlewares
+namespace CaglarDurmus.ShoppingApi.MvcWebUI.Middlewares
 {
     public static class ApplicationBuilderExtensions
     {

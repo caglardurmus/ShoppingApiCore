@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace CaglarDurmus.Northwind.Entities.Concrete
+namespace CaglarDurmus.ShoppingApi.Entities.Concrete
 {
     public class Cart
     {

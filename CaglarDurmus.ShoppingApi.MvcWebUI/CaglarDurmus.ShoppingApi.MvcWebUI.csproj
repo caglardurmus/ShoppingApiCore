@@ -2,6 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AssemblyName>CaglarDurmus.ShoppingApi.MvcWebUI</AssemblyName>
+    <RootNamespace>CaglarDurmus.ShoppingApi.MvcWebUI</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

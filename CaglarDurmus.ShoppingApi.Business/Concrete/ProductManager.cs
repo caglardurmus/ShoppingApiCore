@@ -1,11 +1,11 @@
-﻿using CaglarDurmus.Northwind.Business.Abstract;
-using CaglarDurmus.Northwind.DataAccess.Abstract;
-using CaglarDurmus.Northwind.Entities.Concrete;
+﻿using CaglarDurmus.ShoppingApi.Business.Abstract;
+using CaglarDurmus.ShoppingApi.DataAccess.Abstract;
+using CaglarDurmus.ShoppingApi.Entities.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace CaglarDurmus.Northwind.Business.Concrete
+namespace CaglarDurmus.ShoppingApi.Business.Concrete
 {
     public class ProductManager : IProductService
     {

@@ -1,9 +1,9 @@
-﻿using CaglarDurmus.Northwind.Entities.Concrete;
+﻿using CaglarDurmus.ShoppingApi.Entities.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace CaglarDurmus.Northwind.Business.Abstract
+namespace CaglarDurmus.ShoppingApi.Business.Abstract
 {
     public interface IProductService
     {

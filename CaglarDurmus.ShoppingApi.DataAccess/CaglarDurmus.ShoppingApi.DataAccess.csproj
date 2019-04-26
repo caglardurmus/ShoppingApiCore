@@ -2,6 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
+    <RootNamespace>CaglarDurmus.ShoppingApi.DataAccess</RootNamespace>
+    <AssemblyName>CaglarDurmus.ShoppingApi.DataAccess</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>

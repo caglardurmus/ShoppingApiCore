@@ -1,16 +1,16 @@
-﻿using CaglarDurmus.Northwind.Entities.Concrete;
+﻿using CaglarDurmus.ShoppingApi.Entities.Concrete;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace CaglarDurmus.Northwind.DataAccess.Concrete.EntityFramework
+namespace CaglarDurmus.ShoppingApi.DataAccess.Concrete.EntityFramework
 {
-    public class NorthwindContext : DbContext
+    public class ShoppingApiContext : DbContext
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=(localdb)\MSSQLLocalDB;Database=Northwind; Trusted_Connection=true");
+            optionsBuilder.UseSqlServer(@"Server=(localdb)\MSSQLLocalDB;Database=ShoppingApi; Trusted_Connection=true");
         }
         public DbSet<Product> Products { get; set; }
         public DbSet<Category> Categories { get; set; }

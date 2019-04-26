@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
-namespace CaglarDurmus.Northwind.MvcWebUI
+namespace CaglarDurmus.ShoppingApi.MvcWebUI
 {
     public class Program
     {

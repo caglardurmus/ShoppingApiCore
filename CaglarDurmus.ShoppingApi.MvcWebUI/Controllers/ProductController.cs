@@ -1,12 +1,12 @@
-﻿using CaglarDurmus.Northwind.Business.Abstract;
-using CaglarDurmus.Northwind.MvcWebUI.Models;
+﻿using CaglarDurmus.ShoppingApi.Business.Abstract;
+using CaglarDurmus.ShoppingApi.MvcWebUI.Models;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace CaglarDurmus.Northwind.MvcWebUI.Controllers
+namespace CaglarDurmus.ShoppingApi.MvcWebUI.Controllers
 {
     public class ProductController : Controller
     {

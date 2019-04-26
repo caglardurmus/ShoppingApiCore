@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Text;
 
-namespace CaglarDurmus.Northwind.Entities.Concrete
+namespace CaglarDurmus.ShoppingApi.Entities.Concrete
 {
     public class CartLine
     {

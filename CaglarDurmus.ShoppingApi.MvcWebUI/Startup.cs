@@ -2,18 +2,18 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using CaglarDurmus.Northwind.Business.Abstract;
-using CaglarDurmus.Northwind.Business.Concrete;
-using CaglarDurmus.Northwind.DataAccess.Abstract;
-using CaglarDurmus.Northwind.DataAccess.Concrete.EntityFramework;
-using CaglarDurmus.Northwind.MvcWebUI.Middlewares;
-using CaglarDurmus.Northwind.MvcWebUI.Services;
+using CaglarDurmus.ShoppingApi.Business.Abstract;
+using CaglarDurmus.ShoppingApi.Business.Concrete;
+using CaglarDurmus.ShoppingApi.DataAccess.Abstract;
+using CaglarDurmus.ShoppingApi.DataAccess.Concrete.EntityFramework;
+using CaglarDurmus.ShoppingApi.MvcWebUI.Middlewares;
+using CaglarDurmus.ShoppingApi.MvcWebUI.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace CaglarDurmus.Northwind.MvcWebUI
+namespace CaglarDurmus.ShoppingApi.MvcWebUI
 {
     public class Startup
     {

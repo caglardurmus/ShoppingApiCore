@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using CaglarDurmus.Northwind.Entities.Concrete;
-using CaglarDurmus.Northwind.MvcWebUI.ExtensionMethods;
+using CaglarDurmus.ShoppingApi.Entities.Concrete;
+using CaglarDurmus.ShoppingApi.MvcWebUI.ExtensionMethods;
 using Microsoft.AspNetCore.Http;
 
-namespace CaglarDurmus.Northwind.MvcWebUI.Services
+namespace CaglarDurmus.ShoppingApi.MvcWebUI.Services
 {
     public class CartSessionService : ICartSessionService
     {
