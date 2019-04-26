@@ -1,0 +1,16 @@
+﻿@model CaglarDurmus.Northwind.MvcWebUI.Models.CartSummaryViewModel
+
+    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+        @foreach (var item in Model.Cart.CartLines)
+        {
+            <a class="dropdown-item">@item.Product.ProductName <span class="badge badge-pill badge-primary">@item.Quantity</span></a>
+
+        }
+        <div class="dropdown-divider"></div>
+
+        <a class="dropdown-item"><span class="fas fa-shopping-cart"></span>@Model.Cart.Total</a>
+
+        <div class="dropdown-divider"></div>
+
+        <a class="dropdown-item" asp-controller="Cart" asp-action="List">Go to cart details</a>
+    </div>

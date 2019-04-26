@@ -1,0 +1,44 @@
+﻿using CaglarDurmus.Northwind.Business.Abstract;
+using CaglarDurmus.Northwind.DataAccess.Abstract;
+using CaglarDurmus.Northwind.DataAccess.Concrete.EntityFramework;
+using CaglarDurmus.Northwind.Entities.Concrete;
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace CaglarDurmus.Northwind.Business.Concrete
+{
+    public class CategoryManager : ICategoryService
+    {
+        private ICategoryDal _categoryDal;
+        public CategoryManager(ICategoryDal categoryDal)
+        {
+            _categoryDal = categoryDal;
+        }
+        public void Add(Category category)
+        {
+            _categoryDal.Add(category);
+        }
+
+        public void Delete(int categoryId)
+        {
+            //_categoryDal.Delete(this.GetById(categoryId));
+            _categoryDal.Delete(new Category { CategoryId = categoryId });
+        }
+
+        public List<Category> GetAll()
+        {
+            return _categoryDal.GetList();
+        }
+
+        public Category GetById(int categoryId)
+        {
+            return _categoryDal.GetT(c => c.CategoryId == categoryId);
+        }
+
+        public void Update(Category category)
+        {
+            _categoryDal.Update(category);
+        }
+    }
+}

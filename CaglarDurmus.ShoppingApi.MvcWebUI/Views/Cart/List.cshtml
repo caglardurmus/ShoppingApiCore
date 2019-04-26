@@ -1,0 +1,54 @@
+﻿@model CaglarDurmus.Northwind.MvcWebUI.Models.CartSummaryViewModel
+
+@{
+    Layout = "~/Views/_Layout.cshtml";
+}
+
+<h2>Your Cart</h2>
+<table class="table">
+    <tr>
+        <td>Product Name</td>
+        <td>Unit Price</td>
+        <td>Units In Stock</td>
+        <td>Quantity</td>
+        <td></td>
+    </tr>
+    @foreach (var item in Model.Cart.CartLines)
+    {
+        <tr>
+            <td>@item.Product.ProductName</td>
+            <td>@item.Product.UnitPrice</td>
+            <td>@item.Product.UnitsInStock</td>
+            <td>@item.Quantity</td>
+            <td class="text-right">
+                <a class="btn btn-xs btn-danger" asp-controller="Cart" asp-action="Remove" asp-route-productId="@item.Product.ProductId">
+                    <span class="fas fa-times"></span>
+                    Remove from cart
+                </a>
+            </td>
+        </tr>
+
+    }
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><h3>Total</h3></td>
+        <td class="text-right"> @Model.Cart.Total</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>
+            <a asp-controller="Product" asp-action="Index" class="btn btn-xs btn-default">
+                <span class="fas fa-shopping-cart"></span> Continue Shopping
+            </a>
+        </td>
+        <td class="text-right">
+            <a asp-controller="Cart" asp-action="Complete" class="btn btn-xs btn-success">
+                <span class="far fa-credit-card"></span> Go To Checkout
+            </a>
+        </td>
+    </tr>
+</table>

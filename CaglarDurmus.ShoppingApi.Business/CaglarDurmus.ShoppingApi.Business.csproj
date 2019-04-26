@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CaglarDurmus.ShoppingApi.DataAccess\CaglarDurmus.ShoppingApi.DataAccess.csproj" />
+    <ProjectReference Include="..\CaglarDurmus.ShoppingApi.Entities\CaglarDurmus.ShoppingApi.Entities.csproj" />
+  </ItemGroup>
+
+</Project>

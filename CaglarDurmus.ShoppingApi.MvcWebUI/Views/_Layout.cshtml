@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="/node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="/node_modules/font-awesome-5-css/css/all.css" rel="stylesheet" type="text/css" />
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="/node_modules/jquery-validation/dist/jquery.validate.js"></script>
+    <script src="/node_modules/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js"></script>
+
+</head>
+<body>
+    <div class="col-md-12">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark my-2">
+            <a class="navbar-brand" href="#">ShoppingApiCore</a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        @await Component.InvokeAsync("CartSummary")
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+    </div>
+    <div class="container col-md-12">
+        <div class="row">
+            <div class="col-md-2">
+                @await Component.InvokeAsync("CategoryList")
+            </div>
+            <div class="col-md-10">
+                @if (TempData["message"] != null)
+                {
+                    <div class="alert alert-info" role="alert">@TempData["message"]</div>
+                }
+                @RenderBody()
+            </div>
+        </div>
+    </div>
+    <div class="col-md-12">Footer</div>
+</body>
+</html>
