@@ -1,0 +1,62 @@
+﻿@using System.Threading.Tasks
+@model CaglarDurmus.ShoppingApi.MvcWebUI.Models.LoginViewModel
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/_AdminLayout.cshtml";
+}
+
+<div class="container">
+    <div id="loginbox" style="margin-top:50px;  margin-left: auto; margin-right: auto;" class="mainbox col-md-6">
+        <div class="card card-info">
+            <div class="card-header"><strong>Sign In</strong></div>
+            <div style="padding-top:30px;" class="card-body">
+                <div style="display:none" id="login-alert" class="alert alert-danger col-sm-12"></div>
+
+                <form asp-controller="Account" asp-action="Login" method="post" class="form-horizontal" role="form">
+
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i class="fas fa-user"></i></span>
+                        </div>
+                        <input type="text" asp-for="UserName" class="form-control" placeholder="username">
+                        <span asp-validation-for="UserName"></span>
+                    </div>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i class="fas fa-lock"></i></span>
+                        </div>
+                        <input type="password" asp-for="Password" class="form-control" placeholder="password">
+                        <span asp-validation-for="Password"></span>
+                    </div>
+
+                    <div class="input-group  mb-3">
+                        <div class="checkbox">
+                            <label>
+                                <input asp-for="RememberMe"> Remember me
+                            </label>
+                        </div>
+                    </div>
+
+                    <div style="margin-top:10px" class="form-group">
+                        <!-- Button -->
+                        <div class="col-sm-12 controls">
+                            <input type="submit" class="btn btn-success" value="Login">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-md-12 control">
+                            <div style="border-top: 1px solid#888; padding-top:15px; font-size:85%">
+                                Don't have an account!
+                                <a asp-controller="Account" asp-action="Register">
+                                    Sign Up Here
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>

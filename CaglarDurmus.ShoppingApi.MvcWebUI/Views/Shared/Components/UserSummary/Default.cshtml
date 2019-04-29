@@ -1,0 +1,11 @@
+﻿@model CaglarDurmus.ShoppingApi.MvcWebUI.Models.UserDetailsViewModel
+@if (!string.IsNullOrEmpty(Model.UserName))
+{
+    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+
+        <a class="dropdown-item"><i class="fas fa-user" style="padding-right: inherit;"></i>@Model.UserName</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" asp-controller="Account" asp-action="LogOff"><i style="padding-right: inherit;" class="fas fa-sign-out-alt"></i> Log Out</a>
+
+    </div>
+}

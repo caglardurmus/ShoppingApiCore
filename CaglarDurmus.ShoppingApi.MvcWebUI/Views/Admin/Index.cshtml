@@ -3,15 +3,15 @@
     ViewData["Title"] = "Index";
     Layout = "~/Views/_AdminLayout.cshtml";
 }
-<a class="btn btn-xs btn-success" asp-controller="Admin" asp-action="Add">Add Product</a>
 
 <div class="table-responsive">
-    <table class="table table-bordered ">
+    <table class="table table-bordered  table-responsive-lg">
         <tr>
-            <td>Product Name</td>
+            <td>Product Name </td>
             <td>Unit Price</td>
             <td>Units In Stock</td>
-            <td></td>
+            <td align="center"> 
+<a class="btn btn-xs btn-success" asp-controller="Admin" asp-action="Add">Add Product</a></td>
             <td></td>
         </tr>
         @{ foreach (var product in Model.Products)
@@ -20,8 +20,8 @@
                     <td>@product.ProductName</td>
                     <td>@product.UnitPrice</td>
                     <td>@product.UnitsInStock</td>
-                    <td><a class="btn btn-xs btn-info" asp-controller="Admin" asp-action="Update" asp-route-productId="@product.ProductId">Update</a></td>
-                    <td><a class="btn btn-xs btn-danger" asp-controller="Admin" asp-action="Delete" asp-route-productId="@product.ProductId">Delete</a></td>
+                    <td align="center"><a class="btn btn-xs btn-info" asp-controller="Admin" asp-action="Update" asp-route-productId="@product.ProductId">Update</a></td>
+                    <td align="center"><a class="btn btn-xs btn-danger" asp-controller="Admin" asp-action="Delete" asp-route-productId="@product.ProductId">Delete</a></td>
                 </tr>
             }
         }
