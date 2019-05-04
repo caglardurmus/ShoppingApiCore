@@ -686,23 +686,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\caglar.durmus\\.nuget\\packages\\": {},
+    "C:\\Users\\Caglar\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\caglar.durmus\\Documents\\GitHub\\ShoppingApiCore\\CaglarDurmus.Core\\CaglarDurmus.Core.csproj",
+      "projectUniqueName": "C:\\Users\\Caglar\\Documents\\GitHub\\ShoppingApiCore\\CaglarDurmus.Core\\CaglarDurmus.Core.csproj",
       "projectName": "CaglarDurmus.Core",
-      "projectPath": "C:\\Users\\caglar.durmus\\Documents\\GitHub\\ShoppingApiCore\\CaglarDurmus.Core\\CaglarDurmus.Core.csproj",
-      "packagesPath": "C:\\Users\\caglar.durmus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\caglar.durmus\\Documents\\GitHub\\ShoppingApiCore\\CaglarDurmus.Core\\obj\\",
+      "projectPath": "C:\\Users\\Caglar\\Documents\\GitHub\\ShoppingApiCore\\CaglarDurmus.Core\\CaglarDurmus.Core.csproj",
+      "packagesPath": "C:\\Users\\Caglar\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Caglar\\Documents\\GitHub\\ShoppingApiCore\\CaglarDurmus.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\caglar.durmus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Caglar\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

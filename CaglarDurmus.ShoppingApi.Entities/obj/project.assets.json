@@ -702,23 +702,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\caglar.durmus\\.nuget\\packages\\": {},
+    "C:\\Users\\Caglar\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\caglar.durmus\\Documents\\GitHub\\ShoppingApiCore\\CaglarDurmus.ShoppingApi.Entities\\CaglarDurmus.ShoppingApi.Entities.csproj",
+      "projectUniqueName": "C:\\Users\\Caglar\\Documents\\GitHub\\ShoppingApiCore\\CaglarDurmus.ShoppingApi.Entities\\CaglarDurmus.ShoppingApi.Entities.csproj",
       "projectName": "CaglarDurmus.ShoppingApi.Entities",
-      "projectPath": "C:\\Users\\caglar.durmus\\Documents\\GitHub\\ShoppingApiCore\\CaglarDurmus.ShoppingApi.Entities\\CaglarDurmus.ShoppingApi.Entities.csproj",
-      "packagesPath": "C:\\Users\\caglar.durmus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\caglar.durmus\\Documents\\GitHub\\ShoppingApiCore\\CaglarDurmus.ShoppingApi.Entities\\obj\\",
+      "projectPath": "C:\\Users\\Caglar\\Documents\\GitHub\\ShoppingApiCore\\CaglarDurmus.ShoppingApi.Entities\\CaglarDurmus.ShoppingApi.Entities.csproj",
+      "packagesPath": "C:\\Users\\Caglar\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Caglar\\Documents\\GitHub\\ShoppingApiCore\\CaglarDurmus.ShoppingApi.Entities\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\caglar.durmus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Caglar\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -731,8 +731,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\caglar.durmus\\Documents\\GitHub\\ShoppingApiCore\\CaglarDurmus.Core\\CaglarDurmus.Core.csproj": {
-              "projectPath": "C:\\Users\\caglar.durmus\\Documents\\GitHub\\ShoppingApiCore\\CaglarDurmus.Core\\CaglarDurmus.Core.csproj"
+            "C:\\Users\\Caglar\\Documents\\GitHub\\ShoppingApiCore\\CaglarDurmus.Core\\CaglarDurmus.Core.csproj": {
+              "projectPath": "C:\\Users\\Caglar\\Documents\\GitHub\\ShoppingApiCore\\CaglarDurmus.Core\\CaglarDurmus.Core.csproj"
             }
           }
         }
